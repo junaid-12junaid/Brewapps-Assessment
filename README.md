@@ -142,5 +142,5 @@
 #### Step 1 : Go to any directory and open the Vs code or any code editor and open the terminal command is git clone https://github.com/junaid-12junaid/Brewapps-Assessment.git
 #### Step 2 : npm init
 #### Step 3 : npm i  express mongoose nodemon
-#### Step 2 : npm start
+#### Step 4 : npm start
 
