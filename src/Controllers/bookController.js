@@ -161,7 +161,7 @@ const createBook = async function (req, res) {
   
        if (!isVAlidRequestBody(data)) return res.status(400).send({status: false,message: 'Please provide the input to Update the Book'});
   
-       if(Object.keys(data).length>3) return res.status(400).send({status: false,message: 'Only 4 inputs are allowed to update the Book'});
+       if(Object.keys(data).length>3) return res.status(400).send({status: false,message: 'Only 3 inputs are allowed to update the Book'});
        
       if(title){
   
